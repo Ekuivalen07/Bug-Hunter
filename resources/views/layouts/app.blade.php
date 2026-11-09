@@ -728,13 +728,13 @@
     <!-- Top Navigation on Dark -->
     <header class="top-nav">
         <div class="top-nav__container">
-            <a href="{{ route('borrowings.index') }}" class="top-nav__brand">
+            <a href="{{ route('borrowing.index') }}" class="top-nav__brand">
                 <span class="brand-shield"></span>
                 <span>Posko Perlengkapan Domestic Backpacker</span>
             </a>
 
             <nav class="top-nav__links">
-                <a href="{{ route('borrowings.index') }}#katalog-alat" class="top-nav__link top-nav__link--active">Inventaris</a>
+                <a href="{{ route('borrowing.index') }}#katalog-alat" class="top-nav__link top-nav__link--active">Inventaris</a>
             </nav>
         </div>
     </header>

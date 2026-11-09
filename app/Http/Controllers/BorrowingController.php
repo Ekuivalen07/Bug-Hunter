@@ -41,7 +41,7 @@ class BorrowingController extends Controller
             'quantity' => $validated['quantity'],
         ]);
 
-        return to_route('borrowings.index')
+        return to_route('borrowing.index')
             ->with('success', 'Peminjaman berhasil dicatat.');
     }
 }

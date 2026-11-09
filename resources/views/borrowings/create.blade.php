@@ -4,7 +4,7 @@
 
 @section('content')
     <div style="margin-bottom: var(--space-lg);">
-        <a href="{{ route('borrowings.index') }}" class="btn-tertiary">
+        <a href="{{ route('borrowing.index') }}" class="btn-tertiary">
             &larr; Kembali ke daftar alat
         </a>
     </div>
@@ -13,7 +13,7 @@
         <div class="band-header">
             <div>
                 <span class="caption-uppercase band-header__eyebrow">Paddock Requisition Form</span>
-                <h1 class="display-xl">Pinjam {{ {{ $equipment->name }}</h1>
+                <h1 class="display-xl">Pinjam {{ $equipment->name }}</h1>
             </div>
             <span class="badge-pill">
                 <span class="badge-pill__dot"></span>
@@ -91,7 +91,7 @@
                         <button type="submit" class="btn-primary">
                             Kirim Peminjaman
                         </button>
-                        <a href="{{ route('borrowings.index') }}" class="btn-outline-dark">
+                        <a href="{{ route('borrowing.index') }}" class="btn-outline-dark">
                             Batal
                         </a>
                     </div>
